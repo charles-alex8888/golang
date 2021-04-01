@@ -1,2 +1,3 @@
 # vscode插件
-1. Chinese (Simplified) Language Pack for Visual Studio Code
+1. go
+2. Chinese (Simplified) Language Pack for Visual Studio Code
