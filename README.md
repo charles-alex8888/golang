@@ -1,5 +1,6 @@
 # vscode插件
-1. go
+1. Go
+2. Code Runner
 2. Chinese (Simplified) Language Pack for Visual Studio Code
 3. 配置代理
 ~~~ bash
