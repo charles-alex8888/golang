@@ -8,3 +8,7 @@ echo "export GO111MODULE=on" >> ~/.profile
 echo "export GOPROXY=https://goproxy.cn" >> ~/.profile
 $ source ~/.profile
 ~~~
+
+# 快捷键
+## 上下复制
+option+shift+up/down
