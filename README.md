@@ -23,5 +23,5 @@ Cmd + Shift +
 3. 注释
 ~~~
 alt+shift+a 多行
-ctrl+k      单行
+ctrl+/     单行
 ~~~
