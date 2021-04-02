@@ -1,8 +1,9 @@
 # vscode插件
 1. Go
 2. Code Runner
-2. Chinese (Simplified) Language Pack for Visual Studio Code
-3. 配置代理
+3. Run in Terminal
+4. Chinese (Simplified) Language Pack for Visual Studio Code
+5. 配置代理
 ~~~ bash
 echo "export GO111MODULE=on" >> ~/.profile
 echo "export GOPROXY=https://goproxy.cn" >> ~/.profile
