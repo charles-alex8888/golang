@@ -14,7 +14,7 @@ func main() {
 	fmt.Printf("%T %v %p\n", C, C, D)
 	*C = 20
 	fmt.Println(A)
-
+	// 空指针是 nil
 	// 用户输入
 	var name string
 	fmt.Print("请输入姓名：")

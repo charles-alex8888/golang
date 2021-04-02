@@ -1,7 +1,7 @@
 # vscode插件
 1. Go
 2. Code Runner
-3. Run in Terminal
+3. Run in Terminal (setting设置)
 4. Chinese (Simplified) Language Pack for Visual Studio Code
 5. 配置代理
 ~~~ bash
@@ -15,7 +15,13 @@ $ source ~/.profile
 option+shift+up/down
 
 2. 增加和删除行
-
+~~~ 
 Cmd + enter：
-Cmd + Shift + K：删除当前行
+Cmd + Shift + 
+~~~
 
+3. 注释
+~~~
+alt+shift+a 多行
+ctrl+k      单行
+~~~
