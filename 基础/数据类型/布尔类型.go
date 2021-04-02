@@ -20,4 +20,5 @@ func main() {
 	*/
 	fmt.Println(isGirl == isBoy)
 	fmt.Println(isGirl != zero)
+	fmt.Printf("%T, %t", isGirl, isGirl)
 }

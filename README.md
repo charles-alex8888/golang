@@ -10,5 +10,11 @@ $ source ~/.profile
 ~~~
 
 # 快捷键
-## 上下复制
+1. 上下复制
 option+shift+up/down
+
+2. 增加和删除行
+
+Cmd + enter：
+Cmd + Shift + K：删除当前行
+
