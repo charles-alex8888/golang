@@ -13,6 +13,12 @@ func list(args ...string) {
 	}
 }
 
+func addBase(base int) func(int) int {
+	return func(n int) int {
+		return base + n
+	}
+}
+
 func main() {
 	print(list, "a", "b", "c")
 
@@ -27,5 +33,5 @@ func main() {
 	}("bill")
 
 	// 闭包
-
+	fmt.Println(addBase(8)(10))
 }
