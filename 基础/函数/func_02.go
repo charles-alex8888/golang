@@ -3,8 +3,14 @@ package main
 import "fmt"
 
 //相同类型的参数 合并
-func add(a, b int) int {
-	return a + b
+func add(a, b int) (int, int, int) {
+	return a, b, a + b
+}
+
+func add1(a, b int) (sum int, diff int) {
+	sum = a + b
+	diff = a - b
+	return
 }
 
 // 可变参，切片类型
@@ -70,8 +76,9 @@ func calc(op string, args ...int) int {
 }
 
 func main() {
-	result := add(3, 5)
-	fmt.Println(result)
+	a, b, result := add(3, 5)
+	fmt.Println(a, b, result)
+	fmt.Println(add1(4, 6))
 	result = addN(1, 2, 3, 4, 5)
 	fmt.Println(result)
 	result = calc("add", 9, 8, 7, 6)
