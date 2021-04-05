@@ -41,5 +41,4 @@ func main() {
 	fmt.Println(strings.Trim("abcdfsxabfgsabxxxbabaa", "a"))
 	// 去前后的空格
 	fmt.Println(strings.TrimSpace(" axv kks\n "))
-
 }
