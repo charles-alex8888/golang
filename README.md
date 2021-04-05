@@ -11,6 +11,7 @@ $ source ~/.profile
 ~~~
 
 # 快捷键
+~~~ 
 1、注释：
 　　a) 单行注释：[ctrl+k,ctrl+c] 或 ctrl+/
 
@@ -48,3 +49,4 @@ $ source ~/.profile
 28、快速回到顶部 ： ctrl + home
 29、快速回到底部 : ctrl + end
 30、格式化选定代码 ：ctrl + k / ctrl +f
+~~~
