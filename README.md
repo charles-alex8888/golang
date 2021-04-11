@@ -10,6 +10,9 @@ echo "export GOPROXY=https://goproxy.cn" >> ~/.profile
 $ source ~/.profile
 ~~~
 
+# 参考
+> https://www.liwenzhou.com/
+
 # 快捷键
 ~~~ 
 1、注释：
