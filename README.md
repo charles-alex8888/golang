@@ -5,10 +5,11 @@
 - pkg --- 编译时生成的中间文件
 
 # 配置go mod
-
+~~~ 
 go env -w GOBIN=/usr/local/bin/go
 go env -w GO111MODULE=on # on off auto
 go env -w GOPROXY=https://goproxy.cn,direct // 使用七牛云的
+~~~
 
 # 使用go mod管理一个新项目
 ~~~
