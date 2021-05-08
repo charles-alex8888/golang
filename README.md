@@ -24,6 +24,19 @@ go mod init project
 module project
 ~~~
 
+# 将程序编译成不同系统可执行的文件
+~~~
+# windows
+GOOS=windows
+go build -o hello.exe hello.go
+
+# linux
+GOOS=linux
+go build -o hello-linux hello.go
+
+# mac
+GOOS=darwin
+~~~
 
 
 # vscode插件
