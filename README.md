@@ -1,3 +1,48 @@
+# 标准go工程的目录结构
+
+- src --- 源代码
+- bin --- 编译后生成的可执行文件
+- pkg --- 编译时生成的中间文件
+
+# 配置go mod
+~~~ 
+go env -w GOBIN=/usr/local/bin/go
+go env -w GO111MODULE=on # on off auto
+go env -w GOPROXY=https://goproxy.cn,direct // 使用七牛云的
+~~~
+
+# 使用go mod管理一个新项目
+~~~
+#  
+mkdir project
+cd project
+
+# 
+go mod init project
+
+#
+module project
+~~~
+
+# 将程序编译成不同系统可执行的文件
+~~~
+# windows
+GOOS=windows
+go build -o hello.exe hello.go
+
+# linux
+GOOS=linux
+go build -o hello-linux hello.go
+
+# mac
+GOOS=darwin
+~~~
+
+# web参考文档
+~~~ 
+https://willh.gitbook.io/build-web-application-with-golang-zhtw/
+~~~
+
 # vscode插件
 1. Go
 2. Code Runner
