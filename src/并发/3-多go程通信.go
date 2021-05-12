@@ -12,7 +12,7 @@ func main() {
 	go func() {
 		for i := 0; i < 50; i++ {
 			data := <-numChan
-			fmt.Println("这是子go程，读取的数据为：", data)
+			fmt.Println("这是子go程，读取的数据为:", data)
 		}
 	}()
 
