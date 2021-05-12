@@ -1,3 +1,5 @@
+# golang pkg
+> https://golang.google.cn/pkg/
 # 标准go工程的目录结构
 
 - src --- 源代码
